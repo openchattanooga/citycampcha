@@ -1,0 +1,9 @@
+[submodule "bootstrap-sass"]
+	path = bootstrap-sass
+	url = https://github.com/twbs/bootstrap-sass.git
+[submodule "_sass/vendor/bootstrap-sass"]
+	path = _sass/vendor/bootstrap-sass
+	url = https://github.com/twbs/bootstrap-sass.git
+[submodule "_sass/vendor/bourbon"]
+	path = _sass/vendor/bourbon
+	url = https://github.com/thoughtbot/bourbon.git
