@@ -12,3 +12,6 @@ github_username:  openchattanooga
 
 # Build settings
 markdown: kramdown
+
+sass:
+    style: :compressed
