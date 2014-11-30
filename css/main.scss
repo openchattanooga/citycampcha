@@ -5,8 +5,9 @@
 @import "modules/all";
 
 body {
-  padding-top: em(50px);
+  padding-top: em(75px);
   padding-bottom: em(20px);
+  color: $gray-base;
 }
 
 #cccha_container {
