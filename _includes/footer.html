@@ -1,2 +1,9 @@
 <footer>
+    <div id="sponsors">
+        {% for sponsor in site.data.event_info.sponsors %}
+        <a href="{{ sponsor.url }}" title="{{ sponsor.name  }}">
+            <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" />
+        </a>
+        {% endfor %}
+    </div>
 </footer>

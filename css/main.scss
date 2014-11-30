@@ -19,3 +19,14 @@ body {
     margin: 0 auto;
   }
 }
+
+#sponsors {
+  text-align: center;
+  padding: em(20px) 0;
+  a {
+    display: inline-block;
+    padding: 0.4em 1em;
+    text-decoration: none;
+    margin: 0 0.5em 0.5em;
+  }
+}
