@@ -7,5 +7,7 @@ $font-family-base: 'Ubuntu', sans-serif;
 $navbar-default-bg: $cccha-purple;
 $navbar-default-link-color: white;
 $navbar-default-link-hover-color: darken($navbar-default-link-color, 20%);
+$navbar-default-toggle-icon-bar-bg: white;
+$navbar-default-toggle-hover-bg: $navbar-default-link-hover-color;
 
 
