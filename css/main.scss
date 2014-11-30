@@ -5,7 +5,8 @@
 @import "modules/all";
 
 body {
-  padding-top: em(75px);
+  font-size: 15px;
+  padding-top: em(120px);
   padding-bottom: em(20px);
   color: $gray-base;
 }
@@ -29,4 +30,19 @@ body {
     text-decoration: none;
     margin: 0 0.5em 0.5em;
   }
+}
+
+.section {
+  padding-top: em(50px);
+  margin-top: em(-50px);
+}
+
+
+/* Tweak this. Font size should be bigger on smaller screens. */
+@media (max-width: $screen-xs) {
+    body{font-size: 18px;}
+}
+
+@media (max-width: $screen-sm) {
+    body{font-size: 18px;}
 }
