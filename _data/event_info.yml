@@ -4,6 +4,16 @@ location: 4th Floor of the Chattanooga Public Library
 event_dates: January 8th and 9th, 2015 
 event_signup_url: "#"
 
+keynotes:
+  - name: Catherine Bracy
+    image: /img/cbracy.jpg
+    bio: Until November 2012, she was a product manager and director of the Obama campaign’s technology field office in San Francisco, the first of its kind in American political history. In that role she was responsible for organizing technologists to volunteer their skills to the campaign’s technology and digital efforts. Prior to joining the campaign, she ran the Knight Foundation’s 2011 News Challenge and before that was the administrative director at Harvard’s Berkman Center for Internet & Society. She is on the board of directors at the Citizen Engagement Lab and the Public Laboratory.
+    title: Director of Community Organizing
+    company: Code for America
+  - name: Open Chattanooga
+    image: /img/oc-large.png
+    bio: Open Chattanooga is a collaborative between the City of Chattanooga, the Chattanooga Public Library and the Open Chattanooga Brigade. The Open Chattanooga Brigade empowers citizens with City data to tell stories, solve problems, and better interact with their government. A local chapter of the Code for America Brigade since 2012, our Brigade is seeking creative thinkers, neighborhood advocates, data nerds, designers, developers, and entrepreneurs to help develop meaningful solutions to local issues. The Brigade is the citizen arm of Open Chattanooga and needs the passion and skills to make the Collaborative's efforts meaningful.
+
 schedule: 
   day_one:
     - time: 8:30am - 9:00am

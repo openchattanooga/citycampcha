@@ -27,6 +27,28 @@ layout: default
     </div>
 </div>
 
+<div class="section" id="keynotes">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Keynotes</h2> 
+        </div>
+    </div>
+    <div class="row">
+    {% for keynote in site.data.event_info.keynotes %}
+        <div class="col-md-6">
+            <div class="thumbnail">
+                <img src="{{ keynote.image }}" class="img-responsive" alt="{{ keynote.name }}"/>
+                <div class="caption">
+                    <h3>{{ keynote.name  }}</h3>
+                    {% if keynote.title and keynote.company %}<h4>{{ keynote.title }} for {{ keynote.company }}</h4>{% endif %}
+                    <p>{{ keynote.bio }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>
+
 <div class="section" id="location">
     <div class="row">
         <div class="col-md-12">
