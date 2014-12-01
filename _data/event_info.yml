@@ -1,8 +1,10 @@
 day_one_date: Thursday January 8th, 2015
 day_two_date: Friday January 9th, 2015
 location: 4th Floor of the Chattanooga Public Library
-event_dates: January 8th and 9th, 2015 
+event_dates: January 8th and 9th, 2015
 event_signup_url: "#"
+
+event_theme: Building A Safer City
 
 keynotes:
   - name: Catherine Bracy
@@ -14,7 +16,7 @@ keynotes:
     image: /img/oc-large.png
     bio: Open Chattanooga is a collaborative between the City of Chattanooga, the Chattanooga Public Library and the Open Chattanooga Brigade. The Open Chattanooga Brigade empowers citizens with City data to tell stories, solve problems, and better interact with their government. A local chapter of the Code for America Brigade since 2012, our Brigade is seeking creative thinkers, neighborhood advocates, data nerds, designers, developers, and entrepreneurs to help develop meaningful solutions to local issues. The Brigade is the citizen arm of Open Chattanooga and needs the passion and skills to make the Collaborative's efforts meaningful.
 
-schedule: 
+schedule:
   day_one:
     - time: 8:30am - 9:00am
       activity: Keynote - Catherine Bracy
@@ -28,13 +30,13 @@ schedule:
       activity: Breakouts
     - time: 12:00pm - 1:00pm
       activity: Lunch Presentation / Talk - Chattanooga CUT Group
-    - time: 1:30pm -2:30pm 
+    - time: 1:30pm -2:30pm
       activity: Breakouts
     - time: 2:30pm - 2:45pm
       activity: Break
     - time: 2:45pm - 3:45pm
       activity: Breakouts
-    - time: 3:45pm - 4pm
+    - time: 3:45pm - 4:00pm
       activity: Break
     - time: 4:00pm - 5:00pm
       activity: Team Presentations/Day Summary
@@ -54,7 +56,7 @@ schedule:
       activity: Breakouts
     - time: 12:00pm - 1:00pm
       activity: Lunch Presentation / Talk - Brigade Talk
-    - time: 1:30pm - 2:30pm 
+    - time: 1:30pm - 2:30pm
       activity: Breakouts
     - time: 2:30pm - 2:45pm
       activity: Break
