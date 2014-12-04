@@ -10,6 +10,7 @@ github_username:  openchattanooga
 
 # Build settings
 markdown: kramdown
+exclude: ["CNAME", "Gemfile", "Gemfile.lock"]
 
 sass:
     style: :compressed
