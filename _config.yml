@@ -1,7 +1,13 @@
 # Site settings
 title: CityCampCHA
 email: brigade@openchattanooga.com
-description: CityCampCHA is an unconference focused on innovation for municipal governments and community organizations. As an unconference, content for CityCampCHA is not programmed for a passive audience. Content is created and organized by participants and coordinated by facilitators. Participants are expected to play active roles in sessions. This provides an excellent format for creative, open exchange geared toward action.
+description: >
+  CityCampCHA is an unconference focused on innovation for municipal 
+  governments and community organizations. As an unconference, content for 
+  CityCampCHA is not programmed for a passive audience. Content is created and 
+  organized by participants and coordinated by facilitators. Participants are 
+  expected to play active roles in sessions. This provides an excellent format 
+  for creative, open exchange geared toward action.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://citycampcha.com" # the base hostname & protocol for your site
 domain: "citycampcha.com"
