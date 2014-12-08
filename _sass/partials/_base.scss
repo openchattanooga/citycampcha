@@ -1,1 +1,13 @@
+$cccha-purple: #6D2077;
+$cccha-black: #001722;
+
+$link-color: $cccha-purple;
+$text-color: $cccha-black;
 $font-family-base: 'Ubuntu', sans-serif;
+$navbar-default-bg: $cccha-purple;
+$navbar-default-link-color: white;
+$navbar-default-link-hover-color: darken($navbar-default-link-color, 20%);
+$navbar-default-toggle-icon-bar-bg: white;
+$navbar-default-toggle-hover-bg: darken(white, 20%);
+
+

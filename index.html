@@ -4,9 +4,140 @@ layout: default
 
 <div id="cccha_container">
     <div class="row">
-        <div class="col-md-12"><img src="/img/logo.png" class="logo img-responsive" alt="CityCampCHA"/></div>
+        <div class="col-md-12"><img src="/img/logo.png" class="logo img-responsive" alt="{{ site.title }}"/></div>
     </div>
     <div class="row">
-        <div class="col-md-12"><h1>Coming January 8th and 9th, 2015</h1></div>
+        <div class="col-md-12"><h1>{{ site.data.event_info.event_theme }}</h1></div>
+    </div>
+    <div class="row">
+        <div class="col-md-12"><h1>{{ site.data.event_info.event_dates }}</h1></div>
+    </div>
+    <div class="row">
+        <div class="col-md-12"><h1>{{ site.data.event_info.location }}</h1></div>
+    </div>
+</div>
+
+<div class="section" id="about">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>About</h2>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+          <p>
+              {{ site.title }} is an unconference focused on innovation for 
+              municipal governments and community organizations. As an 
+              unconference, content for {{ site.title }} is not programmed for 
+              a passive audience. Content is created and organized by 
+              participants and coordinated by facilitators. Participants are 
+              expected to play active roles in sessions. This provides an 
+              excellent format for creative, open exchange geared toward action.
+          </p>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p>
+                {{ site.title }} recognizes that local governments and 
+                community organizations have the most direct influence and 
+                impact on our daily lives. This event seeks to create local 
+                communities of practice who are dedicated to design, process, 
+                and technology applications that make cities and other local 
+                communities more open and “user friendly.” The theme for 
+                {{ site.title }} is <strong>{{ site.data.event_info.event_theme }}.</strong>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="keynotes">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Keynotes</h2>
+        </div>
+    </div>
+    <div class="row">
+    {% for keynote in site.data.event_info.keynotes %}
+        <div class="col-md-6">
+            <div class="thumbnail">
+                <img src="{{ keynote.image }}" class="img-responsive" alt="{{ keynote.name }}"/>
+                <div class="caption">
+                    <h3>{{ keynote.name  }}</h3>
+                    {% if keynote.title and keynote.company %}<h4>{{ keynote.title }} for {{ keynote.company }}</h4>{% endif %}
+                    <p>{{ keynote.bio }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>
+
+<div class="section" id="location">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Location</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p>{{ site.title }} will be held at the {{ site.data.event_info.location }}.</p>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="dates">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Dates</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p>{{ site.title }} is {{ site.data.event_info.event_dates }}.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>{{ site.data.event_info.day_one_date }}</h3>
+            <table class="table">
+              <tbody>
+                  {% for activity in site.data.event_info.schedule.day_one %}
+                  <tr>
+                      <td>{{ activity.time }}</td>
+                      <td>{{ activity.activity }}</td>
+                  </tr>
+                  {% endfor %}
+              </tbody>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <h3>{{ site.data.event_info.day_two_date }}</h3>
+            <table class="table">
+              <tbody>
+                  {% for activity in site.data.event_info.schedule.day_two %}
+                  <tr>
+                      <td>{{ activity.time }}</td>
+                      <td>{{ activity.activity }}</td>
+                  </tr>
+                  {% endfor %}
+              </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="tickets">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Tickets</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p>
+                The event is free, but you must reserve tickets <a href="{{ site.data.event_info.event_signup_url  }}">here</a>.
+            </p>
+        </div>
     </div>
 </div>

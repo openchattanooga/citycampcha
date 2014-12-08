@@ -1,7 +1,7 @@
 // Core variables and mixins
+@import "partials/base";
 @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/variables";
 // Base, which includes bootstrap overrides.
-@import "partials/base";
 
 @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
@@ -20,7 +20,7 @@
 @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
 
 // Components
-// @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+@import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
 @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
 // @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
 // @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
@@ -32,7 +32,7 @@
 @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/labels";
 // @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/badges";
 // @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
-// @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
+@import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
 // @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/alerts";
 // @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/progress-bars";
 // @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap/media";
