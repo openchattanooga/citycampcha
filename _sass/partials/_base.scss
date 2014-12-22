@@ -9,5 +9,8 @@ $navbar-default-link-color: white;
 $navbar-default-link-hover-color: darken($navbar-default-link-color, 20%);
 $navbar-default-toggle-icon-bar-bg: white;
 $navbar-default-toggle-hover-bg: darken(white, 20%);
+$btn-default-color: white !default;
+$btn-default-bg: $cccha-purple !default;
+$btn-default-border: darken(white, 20%) !default;
 
 
