@@ -1,0 +1,26 @@
+body {
+  padding-top: 0 !important; // removes default padding
+}
+
+.header-image {
+  margin-top: 50px; // height of navigation bar
+  margin-bottom: 2em;
+  display: block;
+  height: 0;
+  background: url(/img/header-small.jpg) no-repeat;
+  padding-bottom: 500px / 768px * 100%; // height/width*100
+  background-size: 100%;
+
+  @media (min-width: 768px) {
+    background: url(/img/header-large.jpg) no-repeat;
+    padding-bottom: 600px / 1600px * 100%; // height/width*100
+    background-size: 100%;
+  }
+
+  @media (min-width: 1600px) {
+    background: url(/img/header-mega.jpg) no-repeat;
+    padding-bottom: 750px / 2000px * 100%; // height/width*100
+    background-size: 100%;
+  }
+
+}
