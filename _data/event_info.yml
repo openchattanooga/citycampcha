@@ -38,15 +38,17 @@ keynotes:
 schedule:
   day_one:
     - time: 8:30am - 9:00am
-      activity: Keynote - Catherine Bracy
-    - time: 9:00am - 9:30am
       activity: Welcome
-    - time: 9:30am - 10:30am
-      activity: Breakouts
-    - time: 10:30am - 10:45am
+    - time: 9:00am - 9:30am
+      activity: Keynote - Catherine Bracy
+    - time: 9:30am - 10:00am
+      activity: Q/A and Lightning Talks
+    - time: 10:00am - 10:30am
       activity: Break
-    - time: 10:45am - 11:45am
+    - time: 10:30am - 11:30am
       activity: Breakouts
+    - time: 11:30am - 12:00pm
+      activity: Demos
     - time: 12:00pm - 1:00pm
       activity: Lunch Presentation / Talk - Chattanooga CUT Group
     - time: 1:30pm - 2:30pm
@@ -64,15 +66,17 @@ schedule:
 
   day_two:
     - time: 8:30am - 9:00am
-      activity: Keynote / Panel - Open Chattanooga Collaborative
-    - time: 9:00am - 9:30am
       activity: Welcome
-    - time: 9:30am - 10:30am
-      activity: Breakouts
-    - time: 10:30am - 10:45am
+    - time: 9:00am - 9:30am
+      activity: Keynote - Open Chattanooga
+    - time: 9:30am - 10:00am
+      activity: Q/A and Lightning Talks
+    - time: 10:00am - 10:30am
       activity: Break
-    - time: 10:45am - 11:45am
+    - time: 10:30am - 11:30am
       activity: Breakouts
+    - time: 11:30am - 12:00pm
+      activity: Demos
     - time: 12:00pm - 1:00pm
       activity: Lunch Presentation / Talk - Brigade Talk
     - time: 1:30pm - 2:30pm
